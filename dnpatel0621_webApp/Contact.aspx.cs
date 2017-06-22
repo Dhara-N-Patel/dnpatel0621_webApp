@@ -16,14 +16,14 @@ namespace dnpatel0621_webApp
         }
         protected void BtnContact_Click(object sender, EventArgs e)
         {
-            try
-            {
+            //try
+            //{
                 ContactUS(form_name.Text, form_lastname.Text, form_Company.Text, form_phone.Text, form_message.Text, form_email.Text);
-            }
-            catch
-            {
-                Response.Redirect("EmailFailed.html");
-            }
+            //}
+            //catch
+            //{
+            //    Response.Redirect("EmailFailed.html");
+            //}
             Response.Redirect("ThankYou.html");
         }
         private string PopulateEmailBody(string FName, string LName, string Email, string Company, string Phone, string Message)

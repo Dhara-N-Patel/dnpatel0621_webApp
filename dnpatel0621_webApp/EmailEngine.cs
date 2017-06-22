@@ -20,7 +20,7 @@ namespace dnpatel0621_webApp
                 MailMsg.To.Add(new MailAddress(RecepientEmail));
                 SmtpClient Smtp = new SmtpClient();
                 Smtp.Host = ConfigurationManager.AppSettings["Host"];
-                //Smtp.EnableSsl = Convert.ToBoolean(ConfigurationManager.AppSettings["EnableSsl"]);
+                Smtp.EnableSsl = Convert.ToBoolean(ConfigurationManager.AppSettings["EnableSsl"]);
                 System.Net.NetworkCredential NetworkCred = new System.Net.NetworkCredential();
                 NetworkCred.UserName = ConfigurationManager.AppSettings["UserName"];
                 NetworkCred.Password = ConfigurationManager.AppSettings["Password"];
