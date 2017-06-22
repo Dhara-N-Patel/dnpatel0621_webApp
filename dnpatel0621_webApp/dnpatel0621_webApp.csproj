@@ -168,11 +168,7 @@
     <Content Include="js\jquery.countrySelector.js" />
     <Content Include="js\navbar.js" />
     <Content Include="js\validator.js" />
-    <None Include="Properties\PublishProfiles\dharanpatel0621 - FTP.pubxml" />
-    <None Include="Properties\PublishProfiles\dharanpatel0621 - Web Deploy.pubxml" />
-    <None Include="Properties\PublishProfiles\dnpatel0621 - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\dnpatel0621 - Web Deploy.pubxml" />
-    <None Include="Properties\PublishProfiles\dnpatel0621webApp20170621062453 - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
