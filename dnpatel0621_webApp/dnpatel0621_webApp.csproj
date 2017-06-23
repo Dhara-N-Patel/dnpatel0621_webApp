@@ -169,9 +169,9 @@
     <Content Include="js\jquery.countryselector.es5.min.js" />
     <Content Include="js\jquery.countrySelector.js" />
     <Content Include="js\navbar.js" />
+    <Content Include="js\PageWithTabs.js" />
     <Content Include="js\validator.js" />
     <Content Include="Connected Services\Application Insights\ConnectedService.json" />
-    <None Include="Properties\PublishProfiles\dnpatel0621 - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -235,6 +235,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Properties\PublishProfiles\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />

@@ -89,7 +89,7 @@
                             <ul>
                                 <li style="font-size: 12pt; font-weight:bold;">SSMS</li>
                                 <li style="font-size: 12pt; font-weight:bold;">Visual Studio Code</li>
-                                <li style="font-size: 12pt; font-weight:bold;">Visual Studio 2010 & Above</li>
+                                <li style="font-size: 12pt; font-weight:bold;">VS 2010 & Above</li>
                                 <li style="font-size: 12pt; font-weight:bold;">AJAX</li>
                                 <li style="font-size: 12pt; font-weight:bold;">TeleRik for WinForms</li>
                                 <li style="font-size: 12pt; font-weight:bold;">BootStrap</li>
@@ -112,7 +112,7 @@
                             </ul>
                         </div>
                         <div>
-                            <p style="font-size: 14pt; font-weight:bold;">Next in list to learn: Angular 4, MVC, ADO.Net</p>
+                            <p style="font-size: 14pt; font-weight:bold;">Next in list to learn: Angular 4, MVC, ASP.Net Core</p>
                         </div>
                     </div>
                 </div>
@@ -120,32 +120,54 @@
         </section>
 
         <!-- More Info Section -->
-        <footer style="margin-top:1%; margin-left:1%; margin-right:1%;">
+        <footer style="margin-top:1%; margin-left:1%; margin-right:1%; width:100%;" >
             <div class="container-fluid has-danger" style="background-color:Aliceblue; margin-bottom:3%; margin-top: 3%;">
                 <div class="container-fluid">
-                    <h2><strong>Professional Experience</strong></h2>
-                    <div class="col-md-6 center-block" style="font-size: 12pt;">
-
-                        <h3> <strong>At Infodynamics, INC (March 2017-Till Date): </strong></h3>
-                        <ul>
-                            <li style="font-size: 12pt;"><strong>Using Git source repository for branching competency and concurrent development.</strong> </li>
-                            <li style="font-size: 12pt;"><strong>Using HTML, CSS, JavaScript, BootStrap, ASP.Net WebForms to build responsive website.</strong> </li>
-                            <li style="font-size: 12pt;"><strong>Developing Windows based application using Telerik RadControls, WinForms, RadForms, .Net 3.5 and C# as a Server side code</strong></li>
-                            <li style="font-size: 12pt;"><strong>Participating in maintenance, Code review and bug fixing Hot fixing and releases. </strong></li>
-                            <li style="font-size: 12pt;"><strong>Following Agile/Scrum development methodology, daily scrum meetings with cross functional team members and application user.</strong></li>
-                            <li style="font-size: 12pt;"><strong>Actively participating in all the application system’s life cycle phase.</strong></li>
-                        </ul>
-
+                    <h2><strong>Professional Experience:</strong></h2><br />
+                    <div class="tab">
+                        <button class="tablinks" onclick="openExp(event, 'Infodynamics, Inc')" id="defaultOpen"><strong>Infodynamics, Inc</strong></button>
+                        <button class="tablinks" onclick="openExp(event, 'Equian, LLC')"><strong>Equian, LLC</strong></button>
+                        <button class="tablinks" onclick="openExp(event, 'Krazy Mantra IT Pvt Ltd')"><strong>Krazy Mantra IT Pvt Ltd</strong></button>
                     </div>
-                    <div class="col-md-6">
-                        <h3> <strong>At Equian, LLC(May 2016-March 2017): </strong></h3>
+
+                    <div id="Infodynamics, Inc" class="tabcontent">
+                        <h3><strong>Infodynamics, Inc (March 2017-Till Date):</strong></h3><br />
                         <ul>
-                            <li style="font-size: 12pt;"><strong>Using TFS, TortoiseHg source repository for branching competency and concurrent development.</strong> </li>
-                            <li style="font-size: 12pt;"><strong>Used SQL server to write DDL. DML commands, Stored procedures, creating database objects , creating relations  between database objects.</strong></li>
-                            <li style="font-size: 12pt;"><strong>Created SSIS packages to pull data from SQL server, Excel and Flat Files. </strong></li>
-                            <li style="font-size: 12pt;"><strong>Worked with web Development technology, Full stack development of common tiered web architectures. </strong></li>
-                            <li style="font-size: 12pt;"><strong>Participated in the maintenance and bug fixing. </strong></li>
-                            <li style="font-size: 12pt;"><strong>Worked with web Development technology, Full stack development of common tiered web architectures. </strong></li>
+                            <li style="font-size: 12pt;"><strong>Using Git source repository for branching competency and concurrent development.</strong> </li><br />
+                            <li style="font-size: 12pt;"><strong>Using HTML, CSS, JavaScript, BootStrap, ASP.Net WebForms to build responsive website.</strong> </li><br />
+                            <li style="font-size: 12pt;"><strong>Developing Windows based application using Telerik RadControls, WinForms, RadForms, .Net 3.5 and C# as a Server side code</strong></li><br />
+                            <li style="font-size: 12pt;"><strong>Participating in maintenance, Code review and bug fixing Hot fixing and releases. </strong></li><br />
+                            <li style="font-size: 12pt;"><strong>Following Agile/Scrum development methodology, daily scrum meetings with cross functional team members and application user.</strong></li><br />
+                            <li style="font-size: 12pt;"><strong>Actively participating in all the application system’s life cycle phase.</strong></li><br />
+                        </ul>
+                    </div>
+
+                    <div id="Equian, LLC" class="tabcontent">
+                        <h3><strong>Equian, LLC (May 2016-March 2017):</strong></h3><br />
+                        <ul>
+                            <li style="font-size: 12pt;"><strong>Developed ASP pages using C# on the approved Design Document.</strong> </li>
+                            <br />
+                            <li style="font-size: 12pt;"><strong>Created database objects like tables, views, constraints and user defined data types and developed stored procedures.</strong></li>
+                            <br />
+                            <li style="font-size: 12pt;"><strong>Suggested various design changes in SQL Server tables and Stored Procedures.  </strong></li>
+                            <br />
+                            <li style="font-size: 12pt;"><strong>Performed Data Migration from Excel sheets to SQL Server Database.  </strong></li>
+                            <br />
+                            <li style="font-size: 12pt;"><strong>Wrote complex stored procedures, views, triggers and functions on SQL Server 2010.</strong></li>
+                            <br />
+                            <li style="font-size: 12pt;"><strong>Worked with web Development technology, Full stack development of common tiered web architectures. </strong></li><br />
+                        </ul>
+                    </div>
+
+                    <div id="Krazy Mantra IT Pvt Ltd" class="tabcontent">
+                        <h3><strong>Krazy Mantra IT Pvt Ltd (Aug 2013-Feb 2014):</strong></h3><br />
+                        <ul>
+                            <li style="font-size: 12pt;"><strong>Using TFS, TortoiseHg source repository for branching competency and concurrent development.</strong> </li><br />
+                            <li style="font-size: 12pt;"><strong>Used SQL server to write DDL. DML commands, Stored procedures, creating database objects , creating relations  between database objects.</strong></li><br />
+                            <li style="font-size: 12pt;"><strong>Created SSIS packages to pull data from SQL server, Excel and Flat Files. </strong></li><br />
+                            <li style="font-size: 12pt;"><strong>Worked with web Development technology, Full stack development of common tiered web architectures. </strong></li><br />
+                            <li style="font-size: 12pt;"><strong>Participated in the maintenance and bug fixing. </strong></li><br />
+                            <li style="font-size: 12pt;"><strong>Worked with web Development technology, Full stack development of common tiered web architectures. </strong></li><br />
                         </ul>
                     </div>
                 </div>
@@ -187,6 +209,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
             crossorigin="anonymous"></script>
     <script src="js/navbar.js"></script>
+    <script src="js/PageWithTabs.js"></script>
 </body>
 
 </html>
