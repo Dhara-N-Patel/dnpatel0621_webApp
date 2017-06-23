@@ -165,6 +165,7 @@
     <Content Include="css\singlePageTemplate.css" />
     <Content Include="images\webDevelopment.jpg" />
     <Content Include="js\contactForDemo.js" />
+    <Content Include="js\GoogleAnalytics.js" />
     <Content Include="js\jquery.countryselector.es5.js" />
     <Content Include="js\jquery.countryselector.es5.min.js" />
     <Content Include="js\jquery.countrySelector.js" />
