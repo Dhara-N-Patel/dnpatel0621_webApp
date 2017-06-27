@@ -150,7 +150,7 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="HomePage.html" />
-    <Content Include="images\banner1.jpg" />
+    <Content Include="images\banner.jpg" />
     <Content Include="images\Call.PNG" />
     <Content Include="images\countries.png" />
     <Content Include="images\DP.PNG" />
