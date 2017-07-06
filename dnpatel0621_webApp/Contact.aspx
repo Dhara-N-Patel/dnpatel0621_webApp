@@ -62,7 +62,7 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown"><strong>Links</strong><b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li><a href="https://www.linkedin.com/in/dharapatel0621/" style="color:black;"><strong>LinkedIN</strong></a></li>
-                            <li><a href="https://drive.google.com/open?id=0B2CPiIt37lDgWVhzbDdzSjhLS21Hd3E4RWtlSUFDcExJbWZn" style="color:black;"><strong>Resume</strong></a></li>
+                            <li><a href="https://drive.google.com/file/d/0B2CPiIt37lDgV0dHQ3RJXzB4R2s/view?usp=sharing" style="color:black;"><strong>Resume</strong></a></li>
                         </ul>
                     </li>
                 </ul>
@@ -96,13 +96,13 @@
                                 <asp:TextBox ID="form_email" class="form-control textbox center-block" runat="server" placeholder="Work Email *" required="required"></asp:TextBox>
                             </div>
                             <div class="form-group">
-                                <asp:TextBox ID="form_phone" class="form-control textbox center-block" runat="server" placeholder="Work Phone *" required="required"></asp:TextBox>
+                                <asp:TextBox ID="form_phone" class="form-control textbox center-block" runat="server" placeholder="Work Phone" ></asp:TextBox>
                             </div>
                             <div class="form-group">
                                 <select id="country" class="form-control textbox center-block" value="USA" data-code-mode="alpha3" data-role="country-selector" style="margin-bottom: 2%; font-size: 12pt;"></select>
                             </div>
                             <div class="form-group">
-                                <asp:TextBox ID="form_Company" class="form-control textbox center-block" runat="server" placeholder="Company Name *" required="required"></asp:TextBox>
+                                <asp:TextBox ID="form_Company" class="form-control textbox center-block" runat="server" placeholder="Company Name"></asp:TextBox>
                             </div>
                             <div class="form-group">
                                 <asp:TextBox ID="form_message" class="form-control textbox center-block" runat="server" placeholder="Message *" TextMode="MultiLine" required="required"></asp:TextBox>
