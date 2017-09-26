@@ -157,6 +157,7 @@
     <Content Include="images\Email.jpg" />
     <Content Include="images\GetInTouch1.jpg" />
     <Content Include="images\MyPic.jpg" />
+    <Content Include="images\MyPic2.png" />
     <Content Include="images\Search.png" />
     <Content Include="css\custom.css" />
     <Content Include="css\jquery-countryselector.css" />
@@ -174,6 +175,7 @@
     <Content Include="js\validator.js" />
     <Content Include="Connected Services\Application Insights\ConnectedService.json" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
+    <Content Include="js\Background.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.1.1.js" />

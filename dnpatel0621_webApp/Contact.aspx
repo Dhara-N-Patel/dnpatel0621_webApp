@@ -41,11 +41,11 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-<body style="background-color: white; margin-right: 7%; margin-left: 7%;">
+<body style="background-color: #232C3B; color:#16A086; margin-right: 7%; margin-left: 7%;">
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header" style="margin-left:7%;"">
-                <button type="button" class="navbar-toggle" data-toggle="coll
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -70,22 +70,22 @@
         </div>
     </div>
     <!-- Main Container -->
-    <div class="container container-fluid center-block" style="background-color: white;">
+    <div class="container container-fluid center-block" style="background-color: #232C3B; color:#16A086;">
         <form role="form" runat="server">
             <div class="messages"></div>
 
             <div class="controls">
-                 <section class="hero" id="hero" style="margin-left:1%; margin-right:1%;margin-top:5%;">
+                 <section class="hero" id="hero" style="margin-left:1%; margin-right:1%;margin-top:5%; border-radius: 40px;">
                     <h2 class="hero_header1 center-block">Dhara Patel <span class="tagline light" style="font-weight: bold">.Net Developer</span></h2>
                     <h3 class="tagline" style="margin-left: 2%; text-align: left;"><strong>More Information</strong></h3>
                     <p class="tagline" style="margin-left: 2%; text-align: left; font-weight: bold">
                         Let's get connected for the further communication.
                     </p>
                 </section>
-                <div class="container-fluid has-danger" style="background-color: white; margin-bottom: 3%; margin-top: 3%;">
+                <div class="container-fluid has-danger" style="background-color: #232C3B; color:#16A086; margin-bottom: 3%; margin-top: 3%;">
                     <div class="container-fluid">
-                            <h3 class="hero_header center-block" style="margin-top: 0%; text-align: center"><strong>For More Information</strong></h3>
-                            <h4 class="tagline" style="color: black; margin-top: 2%"><strong>Submit the form below:</strong></h4>
+                            <h3 class="hero_header center-block" style="color:#16A086; margin-top: 0%; text-align: center"><strong>For More Information</strong></h3>
+                            <h4 class="tagline" style="color: #16A086; margin-top: 2%"><strong>Submit the form below:</strong></h4>
                             <div class="form-group" style="margin-top: 4%;">
                                 <asp:TextBox ID="form_name" class="form-control textbox center-block" runat="server" placeholder="First Name *" required="required"></asp:TextBox>
                             </div>
@@ -108,7 +108,7 @@
                                 <asp:TextBox ID="form_message" class="form-control textbox center-block" runat="server" placeholder="Message *" TextMode="MultiLine" required="required"></asp:TextBox>
                             </div>
                             <div class="form-group">
-                                <asp:Button ID="Submit" runat="server" OnClick="BtnContact_Click" Text="Submit" class="buttonSubmit center-block" />
+                                <asp:Button ID="Submit" runat="server" OnClick="BtnContact_Click"  Text="Submit" class="buttonSubmit center-block" style="background-color: #16A086; color:white;border-radius:40px;"/>
                             </div>
                     </div>
                 </div>

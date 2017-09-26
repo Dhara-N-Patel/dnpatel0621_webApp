@@ -1,5 +1,6 @@
 @media (min-width: 767px) {
     .navbar-nav .dropdown-menu .caret {
-	transform: rotate(-90deg);
+        transform: rotate(-90deg);
+        background-color: #232C3B;
     }
 }
