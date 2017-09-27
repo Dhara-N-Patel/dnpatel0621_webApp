@@ -62,7 +62,7 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown"><strong>Links</strong><b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li><a href="https://www.linkedin.com/in/dharapatel0621/" style="color:black;"><strong>LinkedIN</strong></a></li>
-                            <li><a href="https://drive.google.com/file/d/0B2CPiIt37lDgSURsUkYzWEZYREE/view?usp=sharing" style="color:black;"><strong>Resume</strong></a></li>
+                            <li><a href="https://drive.google.com/open?id=0B2CPiIt37lDgUzhTZV9rVnp4UjA" style="color:black;"><strong>Resume</strong></a></li>
                         </ul>
                     </li>
                 </ul>
